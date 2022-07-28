@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class TestPeople {
 
-    People people = new People();
+    People people = Instructors.getInstance();
     Person person0 = new Person(15, "Larry");
     Person person1 = new Person(16, "Patty");
     Person person2 = new Person(17, "Ryan");
